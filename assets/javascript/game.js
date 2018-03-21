@@ -3,67 +3,67 @@
 var divaArr = [
   {
     artist: "LADY GAGA",
-    ytVideo: "v=en2D_5TzXCA"
+    ytVideo: "en2D_5TzXCA"
   },
   {
     artist: "CHER",
-    ytVideo: "v=eWeezUxIzaE"
+    ytVideo: "eWeezUxIzaE"
   },
   {
     artist: "WHITNEY HOUSTON",
-    ytVideo: "v=3JWTaaS7LdU"
+    ytVideo: "3JWTaaS7LdU"
   },
   {
     artist: "NICKI MINAJ",
-    ytVideo: "v=SeIJmciN8mo"
+    ytVideo: "SeIJmciN8mo"
   },
   {
     artist: "CHRISTINA AGUILERA",
-    ytVideo: "v=kIDWgqDBNXA"
+    ytVideo: "kIDWgqDBNXA"
   },
   {
     artist: "MADONNA",
-    ytVideo: "v=GuJQSAiODqI"
+    ytVideo: "GuJQSAiODqI"
   },
   {
     artist: "BEYONCE KNOWLES",
-    ytVideo: "v=4m1EFMoRFvY"
+    ytVideo: "4m1EFMoRFvY"
   },
   {
     artist: "TAYLOR SWIFT",
-    ytVideo: "v=AgFeZr5ptV8"
+    ytVideo: "AgFeZr5ptV8"
   },
   {
     artist: "MARIAH CAREY",
-    ytVideo: "v=Hat1Hc9SNwE"
+    ytVideo: "Hat1Hc9SNwE"
   },
   {
     artist: "ARETHA FRANKLIN",
-    ytVideo: "v=KtBbyglq37E"
+    ytVideo: "KtBbyglq37E"
   },
   {
     artist: "CELINE DION",
-    ytVideo: "v=Y8HOfcYWZoo"
+    ytVideo: "Y8HOfcYWZoo"
   },
   {
     artist: "JANET JACKSON",
-    ytVideo: "v=vfK5QhZ9u7o"
+    ytVideo: "vfK5QhZ9u7o"
   },
   {
     artist: "DIANA ROSS",
-    ytVideo: "v=VOH6SzDX3l4"
+    ytVideo: "VOH6SzDX3l4"
   },
   {
     artist: "DONNA SUMMER",
-    ytVideo: "v=VOH6SzDX3l4"
+    ytVideo: "VOH6SzDX3l4"
   },
   {
     artist: "TINA TURNER",
-    ytVideo: "v=oGpFcHTxjZs"
+    ytVideo: "oGpFcHTxjZs"
   },
   {
     artist: "BRITNEY SPEARS",
-    ytVideo: "v=u4FF6MpcsRw"
+    ytVideo: "u4FF6MpcsRw"
   }
 ];
 
