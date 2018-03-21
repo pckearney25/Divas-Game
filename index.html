@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Divas Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container" id="headLiners">
+            <div id="header-info">
+                <h1>Meet the Divas!</h1>
+                <p> (Can you identify all 16?)</p>
+            </div>
+        </div>
+    </header>
+
+    <div id="messageBoard" class="container">
+        <!--Provides different iunput depending on game conditions (e.g.start, first letter, beginning of round, etc.).-->
+        <img src="assets/images/diva_image.jpg" alt="divas pic">
+
+        <div id="message"></div>
+    </div>
+
+    <div id="gameBoard" class="container">
+
+        <div class="boardSection" id="divaSection">
+            <div>Name this Diva waiting offstage:</div>
+            <div id="reveal">
+                <!--Returns the revealString here.-->
+            </div>
+        </div>
+
+        <div class="boardSection" id="guessSection">
+            <div>You have already selected these characters:</div>
+            <div id="guesses">
+                <!--Returns the guessArray array here.-->
+            </div>
+        </div>
+
+        <div class="boardSection" id="scoreCard">
+            <div>Diva Game Scorecard:</div>
+            <div class="scores"> Wins:
+                <div id="winScore">
+                    <!--inserts value of wins variable-->
+                </div>
+            </div>
+            <div class="scores">Losses:
+                <div id="lossScore">
+                    <!--inserts value of losses variable-->
+                </div>
+            </div>
+            <div class="scores">Completed Games:
+                <div id="rounds">
+                    <!--inserts value of losses variable-->
+                </div>
+            </div>
+        </div>
+
+        <div class="boardSection" id="mainStage">
+            <div>Welcome to the MainStage! Enjoy a video by the Diva you last identified!
+            </div>
+            <iframe id="video-div" width="420" height="315" src="https://www.youtube.com/embed/v=Xc6TNAqqaIA">
+            </iframe>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container" id="footers">
+            Copyright &copy; 2018 Patrick Kearney
+        </div>
+    </footer>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

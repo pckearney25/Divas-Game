@@ -1,0 +1,128 @@
+/* Here we go. Deep breath Repo Man!. */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  /*background: url("../images/concrete_seamless.png");*/
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+/* header section*/
+#headliners {
+  background: rgb(247, 126, 146);
+  border-bottom: 2px solid #777;
+  border-top: 2px solid #777;
+}
+#header-info {
+  background: rgb(247, 126, 146);
+  color: rgb(250, 250, 250);
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 48px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#header-info p {
+  font-family: cursive;
+  font-size: 16px;
+}
+
+/* message section*/
+#message {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background-color: white;
+}
+
+/* The reveal section*/
+
+/*scoreCard section*/
+
+.scores {
+  display: inline-block;
+}
+#winScore {
+  font-weight: bold;
+  color: darkgreen;
+  display: inline-block;
+}
+
+#lossScore {
+  font-weight: bold;
+  color: darkred;
+  display: inline-block;
+}
+
+#rounds {
+  font-weight: bold;
+  color: navy;
+  display: inline-block;
+}
+
+/* footer section*/
+#footers {
+  padding: 20px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #777;
+  border-top: 2px solid rgb(247, 126, 146);
+}
+
+/* Begin messageBaord*/
+
+#messageBoard {
+  border-bottom: 2px solid #777;
+}
+
+#messageBoard img {
+  width: 960px;
+  border: 0 none;
+  border: 1px;
+  border-color: #777;
+  border-style: solid;
+}
+
+/* Begin boardSection */
+
+#divaSection,
+#guessSection,
+#scoreCard,
+#mainStage {
+  border-bottom: 2px solid #777;
+}
+
+#video-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#reveal {
+  letter-spacing: 6px;
+}
+
+#guesses {
+  letter-spacing: 4px;
+}
