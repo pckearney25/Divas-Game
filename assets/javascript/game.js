@@ -55,7 +55,7 @@ var divaArr = [
   },
   {
     artist: "DONNA SUMMER",
-    ytVideo: "VOH6SzDX3l4"
+    ytVideo: "Nm-ISatLDG0"
   },
   {
     artist: "TINA TURNER",
@@ -265,7 +265,7 @@ function endRound() {
 
 function endMessages(varNum) {
   var endMessageArr = [
-    "Congratulations! You have successfully met all of the Divas! You are now a 'Guess the Diva' diva!",
+    "Congratulations! You have successfully met all of the Divas! You are now a 'Meet the Divas' diva!",
     "Hope you had fun! Come backstage again sometime to try to meet the Divas you missed."
   ];
   document.getElementById("message").innerText = endMessageArr[varNum];
